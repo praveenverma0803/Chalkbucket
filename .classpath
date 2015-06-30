@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/csvjdbc-1.0-18.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/javax-xml-soap-1.6.0.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/poi-examples-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/selenium-java-2.43.1.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/selenium-server-standalone-2.43.1.jar"/>
+	<classpathentry kind="lib" path="E:/MobileAutomation/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Praveen/Downloads/jxl-2.6.12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

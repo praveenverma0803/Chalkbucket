@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83227" started-at="2015-06-26T05:26:02Z" finished-at="2015-06-26T05:27:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="83227" started-at="2015-06-26T05:26:02Z" finished-at="2015-06-26T05:27:26Z">
+      <class name="Testcase">
+        <test-method status="PASS" signature="Launchbrowser()[pri:0, instance:Testcase@5f150435]" name="Launchbrowser" is-config="true" duration-ms="6341" started-at="2015-06-26T10:55:56Z" finished-at="2015-06-26T10:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:Testcase@5f150435]" name="openURL" is-config="true" duration-ms="19321" started-at="2015-06-26T10:56:02Z" finished-at="2015-06-26T10:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Testcase@5f150435]" name="Login" is-config="true" duration-ms="53837" started-at="2015-06-26T10:56:22Z" finished-at="2015-06-26T10:57:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="FAIL" signature="AddMember()[pri:0, instance:Testcase@5f150435]" name="AddMember" duration-ms="9925" started-at="2015-06-26T10:57:16Z" finished-at="2015-06-26T10:57:26Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//*[@aria-owns='MembershipID_listbox']/span/span/span"}
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:58'
+System info: host: 'SPA-LP353', ip: '172.16.2.235', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 48501e4d-916e-4b4f-8778-32e95dffb9cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@aria-owns='MembershipID_listbox']/span/span/span"}
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:58'
+System info: host: 'SPA-LP353', ip: '172.16.2.235', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 48501e4d-916e-4b4f-8778-32e95dffb9cd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at Testcase.AddMember(Testcase.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@aria-owns='MembershipID_listbox']/span/span/span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:58'
+System info: host: 'SPA-LP353', ip: '172.16.2.235', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Praveen/AppData/Local/Temp/anonymous1346700077655600151webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9618:26)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/Praveen/AppData/Local/Temp/anonymous1346700077655600151webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9627:3)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Praveen/AppData/Local/Temp/anonymous1346700077655600151webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11612:16)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Praveen/AppData/Local/Temp/anonymous1346700077655600151webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11617:7)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/Praveen/AppData/Local/Temp/anonymous1346700077655600151webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11559:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMember -->
+      </class> <!-- Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
